@@ -1,0 +1,23 @@
+package com.kh.Test.main;
+
+import java.util.Scanner;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1~5의 정수하나를 입력하세요");
+		int a = sc.nextInt();
+		
+		switch(a) {
+		case 1: a= 1;
+		System.out.println("입력이정상적으로 되었습니다");
+		break;
+		}
+		
+		
+	}
+	
+
+}

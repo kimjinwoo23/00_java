@@ -1,0 +1,18 @@
+package com.kh.practice.File.contriller;
+
+import com.kh.practice.File.model.dao.FileDAO;
+
+public class FileController {
+
+	FileDAO fd = new FileDAO();
+	
+	//이름이 존재하는지 확인하는 코드 
+	public boolean checkName(String file) {
+		return fd.checkName(file);
+	}
+	public void fileSave(String file , StringBuilder sb) {
+		fd.fileSave(file, sb.toString());
+	}
+	
+	
+}

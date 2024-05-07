@@ -1,0 +1,19 @@
+package com.kh.ImageEx;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
+public class ImageResizePre {
+
+	
+	String 원본이미지 = "src/com/kh/ImageEx/pigs.jpg";
+	String 복사이미지 = "src/com/kh/ImageEx/pigs_cute.jpg";
+	
+	int 가로크기 = 400;
+	int 세로크기 = 200;
+
+	
+	
+}

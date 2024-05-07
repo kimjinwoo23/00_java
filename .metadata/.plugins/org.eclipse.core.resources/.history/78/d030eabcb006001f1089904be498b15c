@@ -1,0 +1,44 @@
+package com.kh.Test.main;
+
+import java.util.Scanner;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		/*
+		 1부터 9까지 값을 스캐너로 각각입력받아 
+		 더하기 빼기 곱하기 몫 출력하기 
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1번숫자를 입력하세요");
+		System.out.println("2번숫자를 입력하세요");
+		
+		int 숫자1 = sc.nextInt();
+		int 숫자2 = sc.nextInt();
+		
+		
+		for(int i = 1; i <=9; i++) {
+			int a = 숫자1+숫자2;
+			int b = 숫자1-숫자2;
+			int c = 숫자1*숫자2;
+			int d = 숫자1%숫자2;
+			System.out.println(a);
+			System.out.println(b);
+			System.out.println(c);
+			System.out.println(d);
+			
+		}
+		
+		
+
+
+	
+		
+		
+		
+		
+		
+	}
+	
+	
+}

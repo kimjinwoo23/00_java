@@ -1,0 +1,19 @@
+package com.kh.RunnblePre;
+
+public class 러너블실행 {
+
+	public static void main(String[] args) {
+		
+		Thread t = new Thread();
+		
+		for(int i = 0; i< 5; i++) {
+			System.out.println("종료?");
+			t.start();
+		}
+		
+		
+	}
+	
+	
+	
+}

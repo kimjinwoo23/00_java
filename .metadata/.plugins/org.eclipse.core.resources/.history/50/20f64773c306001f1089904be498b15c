@@ -1,0 +1,16 @@
+package sup2.Controller;
+
+import java.util.Scanner;
+
+import sup2.model.Student;
+
+public class Testsup2 {
+
+	Scanner sc = new Scanner(System.in);
+	
+	
+	Student 학생 = new Student(이름,학년,반,번호,성별,성적);
+	
+	
+	
+}

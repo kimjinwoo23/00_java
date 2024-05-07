@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.kh.ArrayEx&apos; to &apos;21_Variable/src&apos;&#x0D;&#x0A;- Original project: &apos;자바테스트_정리하기&apos;&#x0D;&#x0A;- Destination element: &apos;21_Variable/src&apos;&#x0D;&#x0A;- Original element: &apos;자바테스트_정리하기/src/com.kh.ArrayEx&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=21_Variable/src" element1="/src&lt;com.kh.ArrayEx" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1714462199510" version="1.0"/>
+</session>

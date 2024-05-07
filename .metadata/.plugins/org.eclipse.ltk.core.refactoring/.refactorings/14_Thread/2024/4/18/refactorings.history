@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.kh.ThreadUpgrade&apos; to &apos;15_Network/src&apos;&#x0D;&#x0A;- Original project: &apos;14_Thread&apos;&#x0D;&#x0A;- Destination element: &apos;15_Network/src&apos;&#x0D;&#x0A;- Original element: &apos;14_Thread/src/com.kh.ThreadUpgrade&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=15_Network/src" element1="/src&lt;com.kh.ThreadUpgrade" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1714374314544" version="1.0"/>
+</session>

@@ -1,0 +1,46 @@
+package ThreadEx;
+
+public class 스레드연습  {
+		
+	public 스레드연습() {
+		
+		
+		// TODO Auto-generated constructor stub
+		System.out.println("스레드 시작");
+	}
+
+	//메인메서드 생성
+	//for 문으로 스레드 5개 만들기 
+	//start()로 시작 
+	//for문 
+	
+	public static void main(String[] args) {
+		
+		스레드연습 th = new 스레드연습();
+		try {
+			스레드연습.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		th.start();
+		for(int i = 0; i <5; i++) {
+			System.out.println("스레드 종료");
+				}
+		
+	}
+
+	private void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void sleep(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+}

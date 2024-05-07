@@ -1,0 +1,37 @@
+package com.kh.RunnblePre;
+
+public class 러너블연습 {
+ 
+	int 초;
+	
+	public 러너블연습() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public 러너블연습(int 초) {
+		super();
+		this.초 = 초;
+	}
+	 public void run() {
+		Thread th = new Thread();
+		try {
+			th.sleep(5000);
+			System.out.println(this.초 + " 스레드시작");
+			
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(this.초 + " 스레드종료");
+		
+		 
+		 
+		 
+	 }
+	
+	
+	
+	
+	
+}

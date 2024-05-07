@@ -1,0 +1,58 @@
+package com.kh.ExceptionEx;
+
+import java.util.*;
+
+/*
+ Exception: 예외 상황 발생!
+ 예외는 코드로 처리가능한 에러 
+ 
+ 
+ */
+public class ExceptionEx {
+
+	private Scanner sc =new Scanner(System.in);
+	
+	public ExceptionEx() {
+	}
+	public void method1() {
+		int[] 배열 = {10,20,30,40};
+		
+		for(int i = 0; i <= 배열.length; i++) {
+			
+			
+			try {
+				
+			
+			
+			
+			
+			System.out.println(배열[i]);
+			
+			}catch(Exception e) {
+				System.out.println("배열의 인덱스를 벗어났습니다");
+			}
+			
+			
+			
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		ExceptionEx 예외발생 = new ExceptionEx();
+		예외발생.method1();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}

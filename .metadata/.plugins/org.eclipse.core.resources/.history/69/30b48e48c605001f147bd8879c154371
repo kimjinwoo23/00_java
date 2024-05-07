@@ -1,0 +1,32 @@
+package AddressEx;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+/*
+ 내 집주소 알아보기
+ InetAddress.getLocalHost(): 현재 내 컴퓨터에 지정된 IP주소를가져오는 메서드 
+ 
+ 
+ */
+public class AddressEx2 {
+
+	public static void main(String[] args) {
+		try {
+			InetAddress 로컬호스트 = InetAddress.getLocalHost();
+		
+			System.out.println("내 아이피주소 : " + 로컬호스트.getHostAddress());
+		
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+}
